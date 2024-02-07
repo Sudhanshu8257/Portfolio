@@ -428,12 +428,12 @@ export const educationDetails: education[] = [
     title: "DSA and Algorithms",
     date: "2023",
     platform: "Coursera",
-    link: "/assets/DSA.png",
+    link: "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
   },
   {
     title: "React Js",
     date: "2023",
     platform: "Coursera",
-    link: "/assets/React.png",
+    link: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
   },
 ];

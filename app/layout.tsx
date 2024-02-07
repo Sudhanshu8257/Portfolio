@@ -18,6 +18,9 @@ const pacifico = Pacifico({
 export const metadata: Metadata = {
   title: "Sudhanshu Lohana",
   description: "Portfolio",
+  icons: {
+    icon: "/assets/SL.svg",
+  },
 };
 
 export default function RootLayout({

@@ -14,7 +14,7 @@ const Description = ({ description }: { description: string[] }) => {
           key={i}
           className="mt-2 flex items-center gap-6 max-sm:items-start max-sm:gap-3 "
         >
-          <div className="h-1 w-16 shrink-0 rounded-sm bg-primary max-sm:mt-2 max-sm:w-8"></div>
+          <div className="h-1 w-12 shrink-0 rounded-sm bg-primary max-lg:mt-2 max-lg:w-7"></div>
           <span className="text-[14px] font-medium text-white lg:text-[18px]">
             {desc}
           </span>
