@@ -1,11 +1,4 @@
-import {
-  skills1Mob,
-  skills2Mob,
-  skills3Mob,
-  skills4Mob,
-  skillRay,
-  skillMobRay,
-} from "@/utils";
+import { skillRay, skillMobRay } from "@/utils";
 import React from "react";
 import SkillBox from "./SkillBox";
 
