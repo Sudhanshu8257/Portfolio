@@ -43,22 +43,22 @@ export const skillRay: skill[][] = [
       label: "typescript",
     },
     {
-      image: "/assets/icons/tailwind.svg",
-      label: "tailwind",
+      image: "/assets/icons/mongo.svg",
+      label: "mongoDb",
     },
     {
-      image: "/assets/icons/redux.svg",
-      label: "redux",
+      image: "/assets/icons/node.svg",
+      label: "node",
     },
     {
-      image: "/assets/icons/firebase.svg",
-      label: "firebase",
+      image: "/assets/icons/express.svg",
+      label: "express",
     },
   ],
   [
-    {
-      image: "/assets/icons/mongo.svg",
-      label: "mongoDb",
+   {
+      image: "/assets/icons/tailwind.svg",
+      label: "tailwind",
     },
     {
       image: "/assets/icons/git.svg",
@@ -67,6 +67,16 @@ export const skillRay: skill[][] = [
     {
       image: "/assets/icons/figma.svg",
       label: "figma",
+    },
+  ],
+  [
+    {
+      image: "/assets/icons/redux.svg",
+      label: "redux",
+    },
+    {
+      image: "/assets/icons/firebase.svg",
+      label: "firebase",
     },
   ],
 ];
@@ -119,13 +129,24 @@ export const skillMobRay: skill[][] = [
       label: "mongoDb",
     },
     {
+      image: "/assets/icons/node.svg",
+      label: "node",
+    },
+    {
+      image: "/assets/icons/express.svg",
+      label: "express",
+    },
+
+  ],
+  [
+    {
       image: "/assets/icons/git.svg",
       label: "git",
     },
     {
       image: "/assets/icons/figma.svg",
       label: "figma",
-    },
+    },  
   ],
 ];
 export const selectedProjects: Project[] = [
