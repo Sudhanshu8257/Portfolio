@@ -151,6 +151,43 @@ export const skillMobRay: skill[][] = [
 ];
 export const selectedProjects: Project[] = [
   {
+    name: "MERN AI Chatbot with Gemini API",
+    image: "/assets/project-images/chatbot.png",
+    shortDescription:
+      "Full-stack AI chatbot application built with MERN stack and integrated Gemini API.",
+    deployedLink: "https://frontend-nine-umber-97.vercel.app/",
+    githubLink: "https://github.com/Sudhanshu8257/chatbot",
+    detailedDescription: [
+      "Developed using the MERN (MongoDB, Express.js, React, Node.js) stack for a robust and scalable architecture.",
+      "Implemented user authentication with JWT for secure access to chatbot features and personalized experiences.",
+      "Ensured a well-organized file structure for maintainability and ease of collaboration.",
+      "Integrated Gemini API for advanced AI capabilities, enabling natural language processing and intelligent responses.",
+      "Focused on creating an intuitive user interface and smooth user experience.",
+    ],
+    skills: [
+      {
+        image: "/assets/icons/react.svg",
+        label: "React.js",
+      },
+      {
+        image: "/assets/icons/mongo.svg",
+        label: "MongoDB",
+      },
+      {
+        image: "/assets/icons/node.svg",
+        label: "Node.js",
+      },
+      {
+        image: "/assets/icons/express.svg",
+        label: "Express.js",
+      },
+      {
+        image: "/assets/icons/javascript.svg",
+        label: "JavaScript",
+      },
+    ],
+  },
+  {
     name: "Stack Flow - Stack Overflow Clone",
     image: "/assets/project-images/stackflow.png",
     shortDescription:
@@ -222,44 +259,45 @@ export const selectedProjects: Project[] = [
       },
     ],
   },
+];
+export const projects: Project[] = [
   {
-    name: "Full Stack Spotify Clone",
-    image: "/assets/project-images/spotify.png",
+    name: "MERN AI Chatbot with Gemini API",
+    image: "/assets/project-images/chatbot.png",
     shortDescription:
-      "Seamless Spotify clone with music playback, Stripe integration for premium access.",
-    deployedLink: "https://spotify-clone-swart-eight.vercel.app/",
-    githubLink: "https://github.com/Sudhanshu8257/spotify-clone",
+      "Full-stack AI chatbot application built with MERN stack and integrated Gemini API.",
+    deployedLink: "https://frontend-nine-umber-97.vercel.app/",
+    githubLink: "https://github.com/Sudhanshu8257/chatbot",
     detailedDescription: [
-      "Developed using Next.js, Shadcn UI, and Tailwind CSS for a visually appealing frontend.",
-      "Integrated Supabase for data storage and React for building interactive user interfaces.",
-      "Implemented Stripe for premium user access to advanced features.",
-      "Focused on delivering a seamless and enjoyable UI/UX experience.",
+      "Developed using the MERN (MongoDB, Express.js, React, Node.js) stack for a robust and scalable architecture.",
+      "Implemented user authentication with JWT for secure access to chatbot features and personalized experiences.",
+      "Ensured a well-organized file structure for maintainability and ease of collaboration.",
+      "Integrated Gemini API for advanced AI capabilities, enabling natural language processing and intelligent responses.",
+      "Focused on creating an intuitive user interface and smooth user experience.",
     ],
     skills: [
       {
-        image: "/assets/icons/next.svg",
-        label: "next",
+        image: "/assets/icons/react.svg",
+        label: "React.js",
       },
       {
-        image: "/assets/icons/typescript.svg",
-        label: "typescript",
+        image: "/assets/icons/mongo.svg",
+        label: "MongoDB",
       },
       {
-        image: "/assets/icons/tailwind.svg",
-        label: "tailwind",
+        image: "/assets/icons/node.svg",
+        label: "Node.js",
       },
       {
-        image: "/assets/icons/supabase.svg",
-        label: "supabase",
+        image: "/assets/icons/express.svg",
+        label: "Express.js",
       },
       {
-        image: "/assets/icons/git.svg",
-        label: "Git",
+        image: "/assets/icons/javascript.svg",
+        label: "JavaScript",
       },
     ],
   },
-];
-export const projects: Project[] = [
   {
     name: "Stack Flow - Stack Overflow Clone",
     image: "/assets/project-images/stackflow.png",
