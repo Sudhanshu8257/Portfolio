@@ -23,8 +23,8 @@ const ProjectBox = ({ project, i, pathName, hide }: ProjectProps) => {
       } items-center justify-start gap-6 max-lg:mt-6 max-lg:max-w-[650px] max-lg:flex-col max-lg:rounded-lg max-lg:bg-white max-lg:bg-opacity-[0.02] max-lg:p-4 lg:gap-12`}
     >
       {/* Desktop Image */}
-      <Link href={project.deployedLink} className="shrink-0">
-        <Image {...commonImageProps} className="rounded-xl max-lg:hidden" />
+      <Link href={project.deployedLink} className="relative lg:h-[280px] lg:min-w-[625px]">
+        <Image src={project.image} fill alt={project.name} className="rounded-xl max-lg:hidden" />
       </Link>
 
       <div

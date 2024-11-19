@@ -151,18 +151,19 @@ export const skillMobRay: skill[][] = [
 ];
 export const selectedProjects: Project[] = [
   {
-    name: "MERN AI Chatbot with Gemini API",
+    name: "Converse AI Chatbot with Gemini API",
     image: "/assets/project-images/chatbot.png",
     shortDescription:
       "Full-stack AI chatbot application built with MERN stack and integrated Gemini API.",
-    deployedLink: "https://frontend-nine-umber-97.vercel.app/",
-    githubLink: "https://github.com/Sudhanshu8257/chatbot",
+    deployedLink: "https://converse-chatbot.netlify.app/",
+    githubLink: "https://github.com/Sudhanshu8257/converse",
     detailedDescription: [
       "Developed using the MERN (MongoDB, Express.js, React, Node.js) stack for a robust and scalable architecture.",
       "Implemented user authentication with JWT for secure access to chatbot features and personalized experiences.",
       "Ensured a well-organized file structure for maintainability and ease of collaboration.",
       "Integrated Gemini API for advanced AI capabilities, enabling natural language processing and intelligent responses.",
       "Focused on creating an intuitive user interface and smooth user experience.",
+      "Optimized frontend using Next.js with server-side rendering (SSR), achieving a PageSpeed Insights score of 90+"
     ],
     skills: [
       {
@@ -262,20 +263,25 @@ export const selectedProjects: Project[] = [
 ];
 export const projects: Project[] = [
   {
-    name: "MERN AI Chatbot with Gemini API",
+    name: "Converse AI Chatbot with Gemini API",
     image: "/assets/project-images/chatbot.png",
     shortDescription:
       "Full-stack AI chatbot application built with MERN stack and integrated Gemini API.",
-    deployedLink: "https://frontend-nine-umber-97.vercel.app/",
-    githubLink: "https://github.com/Sudhanshu8257/chatbot",
+    deployedLink: "https://converse-chatbot.netlify.app/",
+    githubLink: "https://github.com/Sudhanshu8257/converse",
     detailedDescription: [
       "Developed using the MERN (MongoDB, Express.js, React, Node.js) stack for a robust and scalable architecture.",
       "Implemented user authentication with JWT for secure access to chatbot features and personalized experiences.",
       "Ensured a well-organized file structure for maintainability and ease of collaboration.",
       "Integrated Gemini API for advanced AI capabilities, enabling natural language processing and intelligent responses.",
       "Focused on creating an intuitive user interface and smooth user experience.",
+      "Optimized frontend using Next.js with server-side rendering (SSR), achieving a PageSpeed Insights score of 90+"
     ],
     skills: [
+      {
+        image: "/assets/icons/next.svg",
+        label: "Next.js",
+      },
       {
         image: "/assets/icons/react.svg",
         label: "React.js",
