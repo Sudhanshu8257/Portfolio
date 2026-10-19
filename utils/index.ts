@@ -1,4 +1,4 @@
-import { Project, education, navLink, skill } from "@/types";
+import { Project, education, experience, navLink, skill } from "@/types";
 
 export const navLinks: navLink[] = [
   {
@@ -500,5 +500,23 @@ export const educationDetails: education[] = [
     date: "2023",
     platform: "Coursera",
     link: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+  },
+];
+export const experienceDetails: experience[] = [
+  {
+    role: "Full-Stack Software Engineer",
+    company: "Gurucool",
+    location: "Jaipur, India",
+    duration: "Jan 2024 – Present",
+    bullets: [
+      "Engineered automated user-retention workflows triggering targeted SMS, WhatsApp, and email reminders for cart drop-offs and payment failures, recovering 25% of lost transactions.",
+      "Architected production database migration to AWS, reducing database infrastructure costs by 50% while maintaining 100% uptime across 20+ active tenant storefronts.",
+      "Executed zero-downtime EC2 migration to AWS Graviton architecture, optimizing compute efficiency and cutting monthly server expenditure by 20%.",
+      "Developed stateful AI Astrologer Chatbot with long-term user memory using LangChain framework, increasing user engagement by 40% and extending average session duration from 3 to 7 minutes.",
+      "Integrated VoIP calling system, Exotel, and Tata Tele voice APIs for real-time consultation scheduling, handling 10,000+ monthly calls with a 99.8% connection success rate.",
+      "Constructed a multi-tenant SaaS platform empowering 20+ vendors to launch custom-branded storefronts, reducing onboarding time by 40% via modular React/Next.js components on AWS Amplify and EC2.",
+      "Designed a GraphQL WebSocket dashboard connected to the Meta WhatsApp Business API, facilitating targeted messaging campaigns that boosted conversion rates by 20%.",
+      "Established team code review standards and architecture guidelines, elevating codebase maintainability scores by 30% across 5 core developer modules.",
+    ],
   },
 ];

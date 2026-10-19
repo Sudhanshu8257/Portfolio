@@ -21,3 +21,10 @@ export interface education {
   platform: string;
   link: string;
 }
+export interface experience {
+  role: string;
+  company: string;
+  location: string;
+  duration: string;
+  bullets: string[];
+}
